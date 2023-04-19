@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: Arial
+}
+
+/* Estilos para el encabezado */
+header {
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+/* Estilos para el contenido principal */
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+.Galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.Galeria img {
+  width: 100%;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer ol {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  margin-right: 1rem;
+}
+
+/* Estilos para el formulario de contacto */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para las etiquetas de los campos de formulario */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Estilos para los campos de formulario */
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-color: #000000;
+  border-radius: 5px;
+}
+
+/* Estilos para el botón de enviar del formulario */
+input[type="submit"] {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilos para el botón de volver a atras */
+input[type="button"] {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilos para la respuesta del formulario */
+.respuesta {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
